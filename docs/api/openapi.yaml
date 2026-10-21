@@ -1,0 +1,1277 @@
+openapi: 3.1.0
+info:
+  title: Workflow API
+  description: Versioned same-origin API for local document workflow tasks.
+  version: 1.0.0
+paths:
+  /api/v1/session:
+    get:
+      tags:
+      - session
+      summary: Session
+      operationId: session_api_v1_session_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SessionBootstrap'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/configs:
+    get:
+      tags:
+      - configuration
+      summary: Configurations
+      operationId: configurations_api_v1_configs_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfigList'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+    post:
+      tags:
+      - configuration
+      summary: Create Configuration
+      operationId: create_configuration_api_v1_configs_post
+      parameters:
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConfigWrite'
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfigResult'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/configs/{identity}:
+    put:
+      tags:
+      - configuration
+      summary: Update Configuration
+      operationId: update_configuration_api_v1_configs__identity__put
+      parameters:
+      - name: identity
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Identity
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConfigWrite'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfigResult'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+    delete:
+      tags:
+      - configuration
+      summary: Delete Configuration
+      operationId: delete_configuration_api_v1_configs__identity__delete
+      parameters:
+      - name: identity
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Identity
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DeleteResult'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/uploads:
+    put:
+      tags:
+      - uploads
+      summary: Upload
+      description: Stream a document upload. Web clients may upload at most 10 MiB per file; CLI and document inspection limits
+        are separate.
+      operationId: upload_api_v1_uploads_put
+      parameters:
+      - name: name
+        in: query
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 240
+          title: Name
+      - name: role
+        in: query
+        required: true
+        schema:
+          enum:
+          - questionnaire
+          - source
+          type: string
+          title: Role
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      responses:
+        '201':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UploadReceipt'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/uploads/{token}:
+    delete:
+      tags:
+      - uploads
+      summary: Delete Upload
+      operationId: delete_upload_api_v1_uploads__token__delete
+      parameters:
+      - name: token
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Token
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DeleteResult'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/jobs:
+    post:
+      tags:
+      - jobs
+      summary: Submit Job
+      operationId: submit_job_api_v1_jobs_post
+      parameters:
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobSubmit'
+      responses:
+        '202':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobAccepted'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+    get:
+      tags:
+      - jobs
+      summary: List Jobs
+      operationId: list_jobs_api_v1_jobs_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobList'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/jobs/{identity}:
+    get:
+      tags:
+      - jobs
+      summary: Get Job
+      operationId: get_job_api_v1_jobs__identity__get
+      parameters:
+      - name: identity
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Identity
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobView'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/jobs/{identity}/cancel:
+    post:
+      tags:
+      - jobs
+      summary: Cancel Job
+      operationId: cancel_job_api_v1_jobs__identity__cancel_post
+      parameters:
+      - name: identity
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Identity
+      - name: X-CSRF-Token
+        in: header
+        required: true
+        schema:
+          type: string
+          title: X-Csrf-Token
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CancelAccepted'
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/jobs/{identity}/report.{extension}:
+    get:
+      tags:
+      - reports
+      summary: Report View
+      operationId: report_view_api_v1_jobs__identity__report__extension__get
+      parameters:
+      - name: identity
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Identity
+      - name: extension
+        in: path
+        required: true
+        schema:
+          enum:
+          - json
+          - md
+          - html
+          type: string
+          title: Extension
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReportView'
+            text/html: {}
+            text/markdown: {}
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+  /api/v1/jobs/{identity}/download/{filename}:
+    get:
+      tags:
+      - downloads
+      summary: Download
+      operationId: download_api_v1_jobs__identity__download__filename__get
+      parameters:
+      - name: identity
+        in: path
+        required: true
+        schema:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Identity
+      - name: filename
+        in: path
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 200
+          pattern: ^[A-Za-z0-9._-]+$
+          title: Filename
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+        '422':
+          description: Request schema is invalid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '400':
+          description: Request rejected
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '403':
+          description: Origin, trusted peer, or CSRF check failed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '404':
+          description: Resource not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '409':
+          description: Task conflict
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+        '413':
+          description: The request is too large; web uploads are limited to 10 MiB per file.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiErrorEnvelope'
+components:
+  schemas:
+    ApiError:
+      properties:
+        code:
+          type: string
+          title: Code
+        message:
+          type: string
+          title: Message
+        diagnostics:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Diagnostics
+      type: object
+      required:
+      - code
+      - message
+      title: ApiError
+    ApiErrorEnvelope:
+      properties:
+        error:
+          $ref: '#/components/schemas/ApiError'
+      type: object
+      required:
+      - error
+      title: ApiErrorEnvelope
+    CancelAccepted:
+      properties:
+        accepted:
+          type: boolean
+          title: Accepted
+      type: object
+      required:
+      - accepted
+      title: CancelAccepted
+    ConfigList:
+      properties:
+        configs:
+          items:
+            $ref: '#/components/schemas/ConfigMetadata'
+          type: array
+          title: Configs
+        configured:
+          type: boolean
+          title: Configured
+      type: object
+      required:
+      - configs
+      - configured
+      title: ConfigList
+    ConfigMetadata:
+      properties:
+        id:
+          type: string
+          title: Id
+        name:
+          type: string
+          title: Name
+        provider:
+          type: string
+          title: Provider
+        model:
+          type: string
+          title: Model
+        base_url:
+          type: string
+          title: Base Url
+        output_mode:
+          type: string
+          title: Output Mode
+        protocol:
+          type: string
+          title: Protocol
+        has_key:
+          type: boolean
+          title: Has Key
+        key_mask:
+          type: string
+          title: Key Mask
+        updated_at:
+          type: string
+          title: Updated At
+      type: object
+      required:
+      - id
+      - name
+      - provider
+      - model
+      - base_url
+      - output_mode
+      - protocol
+      - has_key
+      - key_mask
+      - updated_at
+      title: ConfigMetadata
+    ConfigResult:
+      properties:
+        config:
+          $ref: '#/components/schemas/ConfigMetadata'
+      type: object
+      required:
+      - config
+      title: ConfigResult
+    ConfigWrite:
+      properties:
+        name:
+          type: string
+          maxLength: 80
+          minLength: 1
+          title: Name
+        provider:
+          type: string
+          maxLength: 80
+          minLength: 1
+          title: Provider
+        model:
+          anyOf:
+          - type: string
+            maxLength: 200
+          - type: 'null'
+          title: Model
+        base_url:
+          anyOf:
+          - type: string
+            maxLength: 2048
+          - type: 'null'
+          title: Base Url
+        output_mode:
+          anyOf:
+          - type: string
+            maxLength: 32
+          - type: 'null'
+          title: Output Mode
+        protocol:
+          anyOf:
+          - type: string
+            maxLength: 80
+          - type: 'null'
+          title: Protocol
+        api_key:
+          anyOf:
+          - type: string
+            format: password
+            writeOnly: true
+          - type: 'null'
+          title: Api Key
+        clear_key:
+          type: boolean
+          title: Clear Key
+          default: false
+      additionalProperties: false
+      type: object
+      required:
+      - name
+      - provider
+      title: ConfigWrite
+    DeleteResult:
+      properties:
+        deleted:
+          type: boolean
+          title: Deleted
+      type: object
+      required:
+      - deleted
+      title: DeleteResult
+    JobAccepted:
+      properties:
+        id:
+          type: string
+          title: Id
+      type: object
+      required:
+      - id
+      title: JobAccepted
+    JobList:
+      properties:
+        jobs:
+          items:
+            $ref: '#/components/schemas/JobView'
+          type: array
+          title: Jobs
+      type: object
+      required:
+      - jobs
+      title: JobList
+    JobSubmit:
+      properties:
+        request_id:
+          type: string
+          maxLength: 80
+          minLength: 16
+          pattern: ^[A-Za-z0-9_-]+$
+          title: Request Id
+        config_id:
+          type: string
+          maxLength: 80
+          minLength: 1
+          title: Config Id
+        questionnaire:
+          type: string
+          pattern: ^[a-f0-9]{32}$
+          title: Questionnaire
+        sources:
+          items:
+            type: string
+          type: array
+          maxItems: 20
+          title: Sources
+        answer_mode:
+          type: string
+          enum:
+          - grounded
+          - autonomous
+          title: Answer Mode
+          default: grounded
+        decision_config_id:
+          anyOf:
+          - type: string
+            maxLength: 80
+          - type: 'null'
+          title: Decision Config Id
+      additionalProperties: false
+      type: object
+      required:
+      - request_id
+      - config_id
+      - questionnaire
+      - sources
+      title: JobSubmit
+    JobView:
+      properties:
+        id:
+          type: string
+          title: Id
+        status:
+          type: string
+          title: Status
+        created_at:
+          type: string
+          title: Created At
+        updated_at:
+          type: string
+          title: Updated At
+        finished_at:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Finished At
+        files:
+          items:
+            type: string
+          type: array
+          title: Files
+        stage:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Stage
+        nodes:
+          items:
+            $ref: '#/components/schemas/LegacyNodeView'
+          type: array
+          title: Nodes
+        workflow_nodes:
+          anyOf:
+          - items:
+              $ref: '#/components/schemas/WorkflowNodeView'
+            type: array
+          - type: 'null'
+          title: Workflow Nodes
+        progress_log:
+          items:
+            additionalProperties: true
+            type: object
+          type: array
+          title: Progress Log
+        error:
+          anyOf:
+          - $ref: '#/components/schemas/ApiError'
+          - type: 'null'
+        summary:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Summary
+        counts:
+          anyOf:
+          - additionalProperties:
+              type: integer
+            type: object
+          - type: 'null'
+          title: Counts
+        cancelling:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Cancelling
+        review:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Review
+        config:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Config
+        decision_config:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Decision Config
+        answer_mode:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Answer Mode
+        questionnaire_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Questionnaire Name
+        source_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Source Name
+      additionalProperties: true
+      type: object
+      required:
+      - id
+      - status
+      - created_at
+      - updated_at
+      title: JobView
+      description: Stable public job fields with additive compatibility data retained.
+    LegacyNodeView:
+      properties:
+        stage:
+          type: string
+          title: Stage
+        status:
+          type: string
+          title: Status
+        started_at:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Started At
+        finished_at:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Finished At
+        phase:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Phase
+        completed:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Completed
+        total:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Total
+        batch:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Batch
+        batches:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Batches
+      type: object
+      required:
+      - stage
+      - status
+      title: LegacyNodeView
+    ReportView:
+      properties:
+        result_summary:
+          anyOf:
+          - additionalProperties: true
+            type: object
+          - type: 'null'
+          title: Result Summary
+        processing_warnings:
+          items:
+            type: string
+          type: array
+          title: Processing Warnings
+        published_file:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Published File
+      additionalProperties: true
+      type: object
+      title: ReportView
+      description: The report remains an additive machine-readable document contract.
+    SessionBootstrap:
+      properties:
+        csrf_token:
+          type: string
+          title: Csrf Token
+      type: object
+      required:
+      - csrf_token
+      title: SessionBootstrap
+    UploadReceipt:
+      properties:
+        token:
+          type: string
+          title: Token
+        name:
+          type: string
+          title: Name
+        size:
+          type: integer
+          title: Size
+      type: object
+      required:
+      - token
+      - name
+      - size
+      title: UploadReceipt
+    WorkflowNodeView:
+      properties:
+        node_id:
+          type: string
+          title: Node Id
+        status:
+          type: string
+          enum:
+          - pending
+          - running
+          - success
+          - skipped
+          - failed
+          - interrupted
+          title: Status
+        occurred_at:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Occurred At
+        phase:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Phase
+        counts:
+          additionalProperties:
+            type: integer
+          type: object
+          title: Counts
+        error_code:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Error Code
+      type: object
+      required:
+      - node_id
+      - status
+      title: WorkflowNodeView

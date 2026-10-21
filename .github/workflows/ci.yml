@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Local contracts and container build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version-file: .python-version
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: 0.13.1
+          enable-cache: true
+
+      - name: Install locked Python dependencies
+        run: uv sync --project server --locked --all-groups
+
+      - name: Check Python lock and OpenAPI contract
+        run: |
+          uv lock --project server --check
+          uv run --project server --locked python -m autofill.adapters.http.export_openapi --check
+
+      - name: Run tracked Python tests only
+        run: uv run --project server --locked python scripts/test_tracked.py
+
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install locked web dependencies
+        run: npm ci --prefix web
+
+      - name: Run web tests and build
+        run: |
+          npm test --prefix web
+          npm run build --prefix web
+
+      - name: Check Compose model
+        run: docker compose --env-file /dev/null config --quiet
+
+      - name: Build isolated runtime images
+        run: docker compose --env-file /dev/null build

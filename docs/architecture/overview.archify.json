@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "文档填写工作台",
+    "locale": "zh-CN",
+    "output": "docs/architecture/overview.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    {
+      "id": "browser",
+      "type": "external",
+      "label": "用户浏览器",
+      "sublabel": "本机工作台",
+      "pos": [
+        40,
+        173
+      ],
+      "size": [
+        120,
+        68
+      ]
+    },
+    {
+      "id": "web",
+      "type": "frontend",
+      "label": "web · Vue 3 工作台",
+      "sublabel": "Pinia 状态 · Vite 构建",
+      "tag": "Nginx 静态托管与同源代理",
+      "pos": [
+        220,
+        170
+      ],
+      "size": [
+        160,
+        82
+      ]
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "FastAPI API",
+      "sublabel": "同源 /api/v1 + CSRF",
+      "tag": "server 容器",
+      "pos": [
+        460,
+        170
+      ],
+      "size": [
+        170,
+        74
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "backend",
+      "label": "应用服务 + workflow",
+      "sublabel": "七节点 runner · 模型端口",
+      "tag": "应用与领域调用",
+      "pos": [
+        710,
+        166
+      ],
+      "size": [
+        205,
+        82
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "backend",
+      "label": "CLI 适配器",
+      "sublabel": "prepare / apply / run",
+      "tag": "server 包入口",
+      "pos": [
+        460,
+        375
+      ],
+      "size": [
+        180,
+        74
+      ]
+    },
+    {
+      "id": "provider",
+      "type": "external",
+      "label": "配置的模型服务",
+      "sublabel": "按用户配置请求",
+      "pos": [
+        1020,
+        166
+      ],
+      "size": [
+        160,
+        82
+      ]
+    },
+    {
+      "id": "runtime_data",
+      "type": "database",
+      "label": "本机运行数据",
+      "sublabel": "SQLite · Key · 文件",
+      "tag": "var/* bind mounts",
+      "pos": [
+        710,
+        350
+      ],
+      "size": [
+        170,
+        88
+      ]
+    },
+    {
+      "id": "processor",
+      "type": "backend",
+      "label": "Office / OCR 处理器",
+      "sublabel": "network_mode: none",
+      "tag": "独立无网络镜像",
+      "pos": [
+        1020,
+        350
+      ],
+      "size": [
+        155,
+        88
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Compose 私有网络",
+      "wraps": [
+        "web",
+        "api",
+        "workflow"
+      ],
+      "pad": 18
+    },
+    {
+      "kind": "security-group",
+      "label": "处理器无网络容器",
+      "wraps": [
+        "processor"
+      ],
+      "pad": 14
+    }
+  ],
+  "connections": [
+    {
+      "from": "browser",
+      "to": "web",
+      "label": "HTTP",
+      "variant": "emphasis",
+      "route": "straight"
+    },
+    {
+      "from": "web",
+      "to": "api",
+      "label": "同源 API",
+      "variant": "emphasis",
+      "route": "straight"
+    },
+    {
+      "from": "api",
+      "to": "workflow",
+      "label": "应用用例",
+      "route": "straight"
+    },
+    {
+      "from": "cli",
+      "to": "workflow",
+      "label": "本地调用"
+    },
+    {
+      "from": "workflow",
+      "to": "provider",
+      "label": "JSON API",
+      "route": "straight"
+    },
+    {
+      "from": "workflow",
+      "to": "runtime_data",
+      "label": "状态、候选与报告"
+    },
+    {
+      "from": "workflow",
+      "to": "runtime_data",
+      "label": "写入处理任务",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "from": "runtime_data",
+      "to": "processor",
+      "label": "队列任务",
+      "variant": "dashed"
+    },
+    {
+      "from": "processor",
+      "to": "runtime_data",
+      "label": "结果与心跳",
+      "variant": "dashed",
+      "labelAt": [
+        1047,
+        342
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "请求与代码边界",
+      "items": [
+        "浏览器访问 Vue 3 工作台；Vite 构建静态资源，Pinia 管理界面状态，Nginx 同源代理 API。",
+        "Compose 默认只发布 127.0.0.1:8765；server 的 API、应用层、领域层和适配器使用同一 Python 包。CLI 是另一个入站适配器。"
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "处理器隔离",
+      "items": [
+        "LibreOffice/Tesseract 通过共享目录接收白名单操作和输入文件，再写回结果文件与心跳。",
+        "处理器使用 network_mode: none；模型调用只由后端模型适配器发起。"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "运行状态与发布门禁",
+      "items": [
+        "SQLite、master key、处理队列和结果使用 var/workflow、var/secrets、var/results 独立挂载。",
+        "runner 固定七节点顺序；apply 跳过 understand/answer；失败停止后续节点，验证未通过的候选不进入下载清单。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.28,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "document-questionnaire"
+version = "0.1.0"
+description = "Local-first document workflow for structured questionnaire filling"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "PyMuPDF==1.28.2",
+    "pypdf==6.20.0",
+    "cryptography==50.0.2",
+    "Pillow==12.3.0",
+    "olefile==0.47",
+    "openpyxl==3.1.5",
+    "fastapi>=0.120,<1.0",
+    "pydantic>=2.11,<3",
+    "uvicorn[standard]>=0.34,<1.0",
+    "pyyaml>=6.0,<7",
+]
+
+[project.scripts]
+autofill = "autofill.__main__:main"
+autofill-api = "autofill.adapters.http.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autofill"]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28,<1.0",
+]

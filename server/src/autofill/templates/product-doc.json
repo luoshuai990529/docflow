@@ -1,0 +1,5320 @@
+{
+  "schema_version": 1,
+  "questionnaire_sha256": "f7f5e1c7162a4d88c8f97689b8dc4fb5efcb08cf4da6f0220fe8f4b8c5e7bbba",
+  "render_signature": "09e77cdbeedf5776620c99b27b8f98aa46f61960919a536ab3c081cbf6b969f4",
+  "questions": [
+    {
+      "id": "product-name-cn",
+      "text": "品名 中文",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "product-name-cn"
+      ]
+    },
+    {
+      "id": "product-name-en",
+      "text": "品名 英文",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "product-name-en"
+      ]
+    },
+    {
+      "id": "formula",
+      "text": "分子式",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "formula"
+      ]
+    },
+    {
+      "id": "molecular-weight",
+      "text": "分子量",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "molecular-weight"
+      ]
+    },
+    {
+      "id": "cas",
+      "text": "CAS#",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "cas"
+      ]
+    },
+    {
+      "id": "customs",
+      "text": "海关商品编码",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "customs"
+      ]
+    },
+    {
+      "id": "shelf-life",
+      "text": "有效期",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "shelf-life"
+      ]
+    },
+    {
+      "id": "pack-size",
+      "text": "包装规格",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "pack-size"
+      ]
+    },
+    {
+      "id": "storage",
+      "text": "储存条件",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "storage"
+      ]
+    },
+    {
+      "id": "quality-other",
+      "text": "质量标准 其它",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "quality-other"
+      ]
+    },
+    {
+      "id": "gras-details",
+      "text": "FDA GRAS说明",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "gras-details"
+      ]
+    },
+    {
+      "id": "novel-details",
+      "text": "Novel Food说明",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "novel-details"
+      ]
+    },
+    {
+      "id": "animal-name",
+      "text": "动物来源 名称",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "animal-name"
+      ]
+    },
+    {
+      "id": "animal-part",
+      "text": "动物来源 部位",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "animal-part"
+      ]
+    },
+    {
+      "id": "animal-country",
+      "text": "动物来源 原产国",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "animal-country"
+      ]
+    },
+    {
+      "id": "animal-yield",
+      "text": "动物来源 得率",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "animal-yield"
+      ]
+    },
+    {
+      "id": "plant-latin",
+      "text": "植物来源 拉丁学名",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "plant-latin"
+      ]
+    },
+    {
+      "id": "plant-part",
+      "text": "植物来源 部位",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "plant-part"
+      ]
+    },
+    {
+      "id": "plant-country",
+      "text": "植物来源 原产国",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "plant-country"
+      ]
+    },
+    {
+      "id": "plant-season",
+      "text": "植物来源 采摘季节",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "plant-season"
+      ]
+    },
+    {
+      "id": "plant-yield",
+      "text": "植物来源 得率",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "plant-yield"
+      ]
+    },
+    {
+      "id": "microbe-name",
+      "text": "微生物菌种名称",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "microbe-name"
+      ]
+    },
+    {
+      "id": "enzyme-name",
+      "text": "酶名称",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "enzyme-name"
+      ]
+    },
+    {
+      "id": "carbon-purpose",
+      "text": "活性炭使用目的",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "carbon-purpose"
+      ]
+    },
+    {
+      "id": "solvent-name",
+      "text": "有机溶剂名称",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "solvent-name"
+      ]
+    },
+    {
+      "id": "toxic-name",
+      "text": "剧毒原辅料名称",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "toxic-name"
+      ]
+    },
+    {
+      "id": "glass-color",
+      "text": "搪玻璃颜色",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "glass-color"
+      ]
+    },
+    {
+      "id": "crusher-mode",
+      "text": "粉碎方式",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "crusher-mode"
+      ]
+    },
+    {
+      "id": "sieve-other",
+      "text": "筛网其它材质",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "sieve-other"
+      ]
+    },
+    {
+      "id": "sterilization-other",
+      "text": "灭菌其它方式",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "sterilization-other"
+      ]
+    },
+    {
+      "id": "metal-material",
+      "text": "金属材质",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "metal-material"
+      ]
+    },
+    {
+      "id": "plastic-color",
+      "text": "塑料颜色",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "plastic-color"
+      ]
+    },
+    {
+      "id": "rubber-color",
+      "text": "橡胶颜色",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "rubber-color"
+      ]
+    },
+    {
+      "id": "contact-other",
+      "text": "接触其它材质",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "contact-other"
+      ]
+    },
+    {
+      "id": "patent-details",
+      "text": "相关专利说明",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "patent-details"
+      ]
+    },
+    {
+      "id": "legal-details",
+      "text": "销售限制说明",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "legal-details"
+      ]
+    },
+    {
+      "id": "outsourcing-details",
+      "text": "外包内容",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "outsourcing-details"
+      ]
+    },
+    {
+      "id": "outsourcing-company",
+      "text": "外包单位名称地址",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "outsourcing-company"
+      ]
+    },
+    {
+      "id": "shared-products",
+      "text": "共线产品",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "shared-products"
+      ]
+    },
+    {
+      "id": "quality-standard",
+      "text": "质量标准",
+      "kind": "multi_choice",
+      "options": [
+        "中国药典",
+        "美国药典",
+        "欧洲药典",
+        "FCC",
+        "其它"
+      ],
+      "target_ids": [
+        "quality-standard-0",
+        "quality-standard-1",
+        "quality-standard-2",
+        "quality-standard-3",
+        "quality-standard-4"
+      ]
+    },
+    {
+      "id": "gras",
+      "text": "FDA GRAS资质",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否",
+        "不适用"
+      ],
+      "target_ids": [
+        "gras-0",
+        "gras-1",
+        "gras-2"
+      ]
+    },
+    {
+      "id": "novel-food",
+      "text": "欧盟Novel Food资质",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否",
+        "不适用"
+      ],
+      "target_ids": [
+        "novel-food-0",
+        "novel-food-1",
+        "novel-food-2"
+      ]
+    },
+    {
+      "id": "origin",
+      "text": "产品来源",
+      "kind": "multi_choice",
+      "options": [
+        "化学合成",
+        "动物",
+        "植物",
+        "微生物"
+      ],
+      "target_ids": [
+        "origin-0",
+        "origin-1",
+        "origin-2",
+        "origin-3"
+      ]
+    },
+    {
+      "id": "animal-method",
+      "text": "动物来源 养殖/野生",
+      "kind": "single_choice",
+      "options": [
+        "养殖",
+        "野生",
+        "不适用"
+      ],
+      "target_ids": [
+        "animal-method-0",
+        "animal-method-1"
+      ]
+    },
+    {
+      "id": "plant-method",
+      "text": "植物来源 栽培/野生",
+      "kind": "single_choice",
+      "options": [
+        "栽培",
+        "野生",
+        "不适用"
+      ],
+      "target_ids": [
+        "plant-method-0",
+        "plant-method-1"
+      ]
+    },
+    {
+      "id": "enzyme",
+      "text": "生产使用 酶",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "enzyme-0"
+      ]
+    },
+    {
+      "id": "carbon",
+      "text": "生产使用 活性炭",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "carbon-0"
+      ]
+    },
+    {
+      "id": "solvent",
+      "text": "生产使用 有机溶剂",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "solvent-0"
+      ]
+    },
+    {
+      "id": "toxic",
+      "text": "生产使用 剧毒原辅料",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "toxic-0"
+      ]
+    },
+    {
+      "id": "glass-reactor",
+      "text": "生产使用 搪玻璃反应釜",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "glass-reactor-0"
+      ]
+    },
+    {
+      "id": "crusher",
+      "text": "生产使用 粉碎机",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "crusher-0"
+      ]
+    },
+    {
+      "id": "sieving",
+      "text": "筛分处理",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "sieving-0"
+      ]
+    },
+    {
+      "id": "sterilization",
+      "text": "灭菌处理",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "sterilization-0"
+      ]
+    },
+    {
+      "id": "enzyme-origin",
+      "text": "酶来源",
+      "kind": "multi_choice",
+      "options": [
+        "动物",
+        "植物",
+        "微生物",
+        "不适用"
+      ],
+      "target_ids": [
+        "enzyme-origin-0",
+        "enzyme-origin-1",
+        "enzyme-origin-2"
+      ]
+    },
+    {
+      "id": "sieve-material",
+      "text": "筛网材质",
+      "kind": "single_choice",
+      "options": [
+        "金属",
+        "尼龙",
+        "其它"
+      ],
+      "target_ids": [
+        "sieve-material-0",
+        "sieve-material-1",
+        "sieve-material-2"
+      ]
+    },
+    {
+      "id": "sterilization-mode",
+      "text": "灭菌方式",
+      "kind": "multi_choice",
+      "options": [
+        "加热",
+        "辐照",
+        "环氧乙烷",
+        "其它"
+      ],
+      "target_ids": [
+        "sterilization-mode-0",
+        "sterilization-mode-1",
+        "sterilization-mode-2",
+        "sterilization-mode-3"
+      ]
+    },
+    {
+      "id": "contact-materials",
+      "text": "直接接触材料设备器具",
+      "kind": "multi_choice",
+      "options": [
+        "金属",
+        "塑料",
+        "橡胶",
+        "玻璃",
+        "陶瓷",
+        "木质",
+        "其它"
+      ],
+      "target_ids": [
+        "contact-materials-0",
+        "contact-materials-1",
+        "contact-materials-2",
+        "contact-materials-3",
+        "contact-materials-4",
+        "contact-materials-5",
+        "contact-materials-6"
+      ]
+    },
+    {
+      "id": "patent",
+      "text": "相关专利拥有或申请",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "patent-0",
+        "patent-1"
+      ]
+    },
+    {
+      "id": "legal-restriction",
+      "text": "法律或专利销售限制",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "legal-restriction-0",
+        "legal-restriction-1"
+      ]
+    },
+    {
+      "id": "outsourcing",
+      "text": "生产外包行为",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "outsourcing-0",
+        "outsourcing-1"
+      ]
+    },
+    {
+      "id": "dedicated-line",
+      "text": "专用生产线",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "dedicated-line-0",
+        "dedicated-line-1"
+      ]
+    },
+    {
+      "id": "metal-detector",
+      "text": "生产线金属检测器",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "metal-detector-0",
+        "metal-detector-1"
+      ]
+    },
+    {
+      "id": "magnet-strength",
+      "text": "强磁铁磁场强度",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "magnet-strength"
+      ]
+    },
+    {
+      "id": "magnet-location",
+      "text": "强磁铁安装位置",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "magnet-location"
+      ]
+    },
+    {
+      "id": "detector-fe",
+      "text": "电磁型灵敏度 铁 mm",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "detector-fe"
+      ]
+    },
+    {
+      "id": "detector-ss",
+      "text": "电磁型灵敏度 不锈钢 mm",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "detector-ss"
+      ]
+    },
+    {
+      "id": "detector-nonfe",
+      "text": "电磁型灵敏度 非铁 mm",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "detector-nonfe"
+      ]
+    },
+    {
+      "id": "detector-location",
+      "text": "电磁型安装位置",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "detector-location"
+      ]
+    },
+    {
+      "id": "batch-size",
+      "text": "批量 kg",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "batch-size"
+      ]
+    },
+    {
+      "id": "capacity",
+      "text": "产能 吨/年",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "capacity"
+      ]
+    },
+    {
+      "id": "batch-format",
+      "text": "批号格式",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "batch-format"
+      ]
+    },
+    {
+      "id": "batch-rule",
+      "text": "批号命名原则",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "batch-rule"
+      ]
+    },
+    {
+      "id": "outer-pack",
+      "text": "外包",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "outer-pack"
+      ]
+    },
+    {
+      "id": "inner-pack",
+      "text": "内包",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "inner-pack"
+      ]
+    },
+    {
+      "id": "tie-color",
+      "text": "尼龙扎带颜色",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "tie-color"
+      ]
+    },
+    {
+      "id": "seal-other",
+      "text": "其它封口方式",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "seal-other"
+      ]
+    },
+    {
+      "id": "desiccant-material",
+      "text": "干燥剂成分",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "desiccant-material"
+      ]
+    },
+    {
+      "id": "desiccant-weight",
+      "text": "干燥剂重量 g",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "desiccant-weight"
+      ]
+    },
+    {
+      "id": "desiccant-count",
+      "text": "干燥剂包数",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "desiccant-count"
+      ]
+    },
+    {
+      "id": "desiccant-position",
+      "text": "干燥剂位置",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "desiccant-position"
+      ]
+    },
+    {
+      "id": "label-warning-text",
+      "text": "警示信息内容",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "label-warning-text"
+      ]
+    },
+    {
+      "id": "precautions-text",
+      "text": "特别注意事项",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "precautions-text"
+      ]
+    },
+    {
+      "id": "detector-type",
+      "text": "检测器类型",
+      "kind": "single_choice",
+      "options": [
+        "强磁铁型",
+        "电磁型"
+      ],
+      "target_ids": [
+        "detector-type-0",
+        "detector-type-1"
+      ]
+    },
+    {
+      "id": "seal",
+      "text": "内包封口方式",
+      "kind": "single_choice",
+      "options": [
+        "热塑",
+        "尼龙扎带",
+        "其它"
+      ],
+      "target_ids": [
+        "seal-0",
+        "seal-1",
+        "seal-2"
+      ]
+    },
+    {
+      "id": "desiccant",
+      "text": "包装中放置干燥剂",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "desiccant-0",
+        "desiccant-1"
+      ]
+    },
+    {
+      "id": "label-warning",
+      "text": "标签警示信息",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "label-warning-0",
+        "label-warning-1"
+      ]
+    },
+    {
+      "id": "precautions",
+      "text": "储运检测使用特别注意事项",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "precautions-0",
+        "precautions-1"
+      ]
+    },
+    {
+      "id": "allergen-gluten-composition",
+      "text": "过敏原 gluten 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-gluten-composition-0",
+        "allergen-gluten-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-gluten-cross",
+      "text": "过敏原 gluten 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-gluten-cross-0",
+        "allergen-gluten-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-gluten-note",
+      "text": "过敏原 gluten 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-gluten-note"
+      ]
+    },
+    {
+      "id": "allergen-crustaceans-composition",
+      "text": "过敏原 crustaceans 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-crustaceans-composition-0",
+        "allergen-crustaceans-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-crustaceans-cross",
+      "text": "过敏原 crustaceans 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-crustaceans-cross-0",
+        "allergen-crustaceans-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-crustaceans-note",
+      "text": "过敏原 crustaceans 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-crustaceans-note"
+      ]
+    },
+    {
+      "id": "allergen-egg-composition",
+      "text": "过敏原 egg 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-egg-composition-0",
+        "allergen-egg-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-egg-cross",
+      "text": "过敏原 egg 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-egg-cross-0",
+        "allergen-egg-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-egg-note",
+      "text": "过敏原 egg 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-egg-note"
+      ]
+    },
+    {
+      "id": "allergen-fish-composition",
+      "text": "过敏原 fish 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-fish-composition-0",
+        "allergen-fish-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-fish-cross",
+      "text": "过敏原 fish 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-fish-cross-0",
+        "allergen-fish-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-fish-note",
+      "text": "过敏原 fish 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-fish-note"
+      ]
+    },
+    {
+      "id": "allergen-peanuts-composition",
+      "text": "过敏原 peanuts 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-peanuts-composition-0",
+        "allergen-peanuts-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-peanuts-cross",
+      "text": "过敏原 peanuts 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-peanuts-cross-0",
+        "allergen-peanuts-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-peanuts-note",
+      "text": "过敏原 peanuts 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-peanuts-note"
+      ]
+    },
+    {
+      "id": "allergen-soy-composition",
+      "text": "过敏原 soy 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-soy-composition-0",
+        "allergen-soy-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-soy-cross",
+      "text": "过敏原 soy 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-soy-cross-0",
+        "allergen-soy-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-soy-note",
+      "text": "过敏原 soy 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-soy-note"
+      ]
+    },
+    {
+      "id": "allergen-milk-composition",
+      "text": "过敏原 milk 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-milk-composition-0",
+        "allergen-milk-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-milk-cross",
+      "text": "过敏原 milk 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-milk-cross-0",
+        "allergen-milk-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-milk-note",
+      "text": "过敏原 milk 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-milk-note"
+      ]
+    },
+    {
+      "id": "allergen-nuts-composition",
+      "text": "过敏原 nuts 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-nuts-composition-0",
+        "allergen-nuts-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-nuts-cross",
+      "text": "过敏原 nuts 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-nuts-cross-0",
+        "allergen-nuts-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-nuts-note",
+      "text": "过敏原 nuts 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-nuts-note"
+      ]
+    },
+    {
+      "id": "allergen-celery-composition",
+      "text": "过敏原 celery 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-celery-composition-0",
+        "allergen-celery-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-celery-cross",
+      "text": "过敏原 celery 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-celery-cross-0",
+        "allergen-celery-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-celery-note",
+      "text": "过敏原 celery 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-celery-note"
+      ]
+    },
+    {
+      "id": "allergen-mustard-composition",
+      "text": "过敏原 mustard 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-mustard-composition-0",
+        "allergen-mustard-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-mustard-cross",
+      "text": "过敏原 mustard 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-mustard-cross-0",
+        "allergen-mustard-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-mustard-note",
+      "text": "过敏原 mustard 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-mustard-note"
+      ]
+    },
+    {
+      "id": "allergen-sesame-composition",
+      "text": "过敏原 sesame 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-sesame-composition-0",
+        "allergen-sesame-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-sesame-cross",
+      "text": "过敏原 sesame 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-sesame-cross-0",
+        "allergen-sesame-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-sesame-note",
+      "text": "过敏原 sesame 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-sesame-note"
+      ]
+    },
+    {
+      "id": "allergen-sulphites-composition",
+      "text": "过敏原 sulphites 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-sulphites-composition-0",
+        "allergen-sulphites-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-sulphites-cross",
+      "text": "过敏原 sulphites 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-sulphites-cross-0",
+        "allergen-sulphites-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-sulphites-note",
+      "text": "过敏原 sulphites 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-sulphites-note"
+      ]
+    },
+    {
+      "id": "allergen-lupin-composition",
+      "text": "过敏原 lupin 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-lupin-composition-0",
+        "allergen-lupin-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-lupin-cross",
+      "text": "过敏原 lupin 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-lupin-cross-0",
+        "allergen-lupin-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-lupin-note",
+      "text": "过敏原 lupin 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-lupin-note"
+      ]
+    },
+    {
+      "id": "allergen-molluscs-composition",
+      "text": "过敏原 molluscs 组成/来源",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-molluscs-composition-0",
+        "allergen-molluscs-composition-1"
+      ]
+    },
+    {
+      "id": "allergen-molluscs-cross",
+      "text": "过敏原 molluscs 交叉污染",
+      "kind": "single_choice",
+      "options": [
+        "是",
+        "否"
+      ],
+      "target_ids": [
+        "allergen-molluscs-cross-0",
+        "allergen-molluscs-cross-1"
+      ]
+    },
+    {
+      "id": "allergen-molluscs-note",
+      "text": "过敏原 molluscs 备注",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "allergen-molluscs-note"
+      ]
+    },
+    {
+      "id": "attachments",
+      "text": "英文文件提供",
+      "kind": "multi_choice",
+      "options": [
+        "分析单",
+        "规格单",
+        "工艺流程图",
+        "检测方法",
+        "SDS",
+        "成分列表",
+        "营养信息",
+        "外检报告",
+        "其它",
+        "无真实附件"
+      ],
+      "target_ids": [
+        "attachments-0",
+        "attachments-1",
+        "attachments-2",
+        "attachments-3",
+        "attachments-4",
+        "attachments-5",
+        "attachments-6",
+        "attachments-7",
+        "attachments-8"
+      ]
+    },
+    {
+      "id": "attachments-other",
+      "text": "其它英文文件说明",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "attachments-other"
+      ]
+    },
+    {
+      "id": "completer-name",
+      "text": "完成人",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "completer-name"
+      ]
+    },
+    {
+      "id": "completer-position",
+      "text": "职位",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "completer-position"
+      ]
+    },
+    {
+      "id": "completer-date",
+      "text": "日期",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "completer-date"
+      ]
+    },
+    {
+      "id": "test-warning",
+      "text": "测试标记",
+      "kind": "text",
+      "options": [],
+      "target_ids": [
+        "test-warning"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "product-name-cn",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          151.9499969482422,
+          176.41477966308594,
+          541,
+          190.37078857421875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "product-name-en",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          151.9499969482422,
+          208.1147918701172,
+          541,
+          222.07080078125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "formula",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          107.5999984741211,
+          232.8567657470703,
+          147,
+          245.06826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "molecular-weight",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          208.64999389648438,
+          232.8567657470703,
+          258,
+          245.06826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "cas",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          322.04998779296875,
+          232.8567657470703,
+          397,
+          245.06826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "customs",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          478.0,
+          232.8567657470703,
+          541,
+          245.06826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "shelf-life",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          107.5999984741211,
+          248.9567413330078,
+          147,
+          261.1682434082031
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "pack-size",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          208.64999389648438,
+          248.9567413330078,
+          262,
+          261.1682434082031
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "storage",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          322.04998779296875,
+          248.9567413330078,
+          541,
+          261.1682434082031
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "quality-other",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          367.75,
+          266.0567932128906,
+          541,
+          278.2682800292969
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "gras-details",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          356.1499938964844,
+          282.9567565917969,
+          382.3999938964844,
+          295.1682434082031
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "novel-details",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          368.6000061035156,
+          302.2568054199219,
+          394.8500061035156,
+          314.4682922363281
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "animal-name",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          150.60000610351562,
+          351.956787109375,
+          176.85000610351562,
+          364.16827392578125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "animal-part",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          218.75,
+          351.956787109375,
+          245.0,
+          364.16827392578125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "animal-country",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          297.5,
+          351.956787109375,
+          323.75,
+          364.16827392578125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "animal-yield",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          474.04998779296875,
+          351.956787109375,
+          541,
+          364.16827392578125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "plant-latin",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          276.6499938964844,
+          367.5567932128906,
+          302.8999938964844,
+          379.7682800292969
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "plant-part",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          344.79998779296875,
+          367.5567932128906,
+          371.04998779296875,
+          379.7682800292969
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "plant-country",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          423.54998779296875,
+          367.5567932128906,
+          449.79998779296875,
+          379.7682800292969
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "plant-season",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          159.39999389648438,
+          383.1567687988281,
+          185.64999389648438,
+          395.3682556152344
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "plant-yield",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          248.5500030517578,
+          383.1567687988281,
+          274.79998779296875,
+          395.3682556152344
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "microbe-name",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          182.10000610351562,
+          398.75677490234375,
+          541,
+          410.96826171875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "enzyme-name",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          140.10000610351562,
+          430.456787109375,
+          166.35000610351562,
+          442.66827392578125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "carbon-purpose",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          182.1999969482422,
+          446.0567932128906,
+          541,
+          458.2682800292969
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "solvent-name",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          171.6999969482422,
+          461.6567687988281,
+          541,
+          473.8682556152344
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "toxic-name",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          182.1999969482422,
+          477.25677490234375,
+          541,
+          489.46826171875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "glass-color",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          224.10000610351562,
+          492.8567810058594,
+          541,
+          505.0682678222656
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "crusher-mode",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          182.1999969482422,
+          508.4568176269531,
+          541,
+          520.6683349609375
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "sieve-other",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          333.3500061035156,
+          524.0567626953125,
+          541,
+          536.268310546875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "sterilization-other",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          335.1499938964844,
+          539.65673828125,
+          541,
+          551.8682861328125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "metal-material",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          150.6999969482422,
+          571.3567504882812,
+          176.9499969482422,
+          583.5682983398438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "plastic-color",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          268.8500061035156,
+          571.3567504882812,
+          295.1000061035156,
+          583.5682983398438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "rubber-color",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          387.0,
+          571.3567504882812,
+          541,
+          583.5682983398438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "contact-other",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          261.20001220703125,
+          586.956787109375,
+          541,
+          599.1683349609375
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "patent-details",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          150.6999969482422,
+          618.65673828125,
+          176.9499969482422,
+          630.8682861328125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "legal-details",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          150.6999969482422,
+          653.2567138671875,
+          176.9499969482422,
+          665.46826171875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "outsourcing-details",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          163.5500030517578,
+          690.8067626953125,
+          189.8000030517578,
+          703.018310546875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "outsourcing-company",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          298.20001220703125,
+          690.8067626953125,
+          324.45001220703125,
+          703.018310546875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "shared-products",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          195.60000610351562,
+          728.3567504882812,
+          221.85000610351562,
+          740.5682983398438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "quality-standard-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          108.75,
+          267.30078125,
+          118.5,
+          277.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "中国药典"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "quality-standard-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          167.6999969482422,
+          267.30078125,
+          177.4499969482422,
+          277.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "美国药典"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "quality-standard-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          226.64999389648438,
+          267.30078125,
+          236.39999389648438,
+          277.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "欧洲药典"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "quality-standard-3",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          285.6000061035156,
+          267.30078125,
+          295.3500061035156,
+          277.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "FCC"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "quality-standard-4",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          325.20001220703125,
+          267.30078125,
+          334.95001220703125,
+          277.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "其它"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "gras-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          282.04998779296875,
+          284.20074462890625,
+          291.79998779296875,
+          293.95074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "gras-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          398.70001220703125,
+          284.20074462890625,
+          408.45001220703125,
+          293.95074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "gras-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          426.1499938964844,
+          284.20074462890625,
+          435.8999938964844,
+          293.95074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "不适用"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "novel-food-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          294.5,
+          303.50079345703125,
+          304.25,
+          313.25079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "novel-food-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          411.1499938964844,
+          303.50079345703125,
+          420.8999938964844,
+          313.25079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "novel-food-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          438.6000061035156,
+          303.50079345703125,
+          448.3500061035156,
+          313.25079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "不适用"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "origin-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          337.60076904296875,
+          86.3499984741211,
+          347.35076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "化学合成"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "origin-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          353.2007751464844,
+          86.3499984741211,
+          362.9507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "动物"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "origin-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          368.80078125,
+          86.3499984741211,
+          378.55078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "植物"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "origin-3",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          400.0007629394531,
+          86.3499984741211,
+          409.7507629394531
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "微生物"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "animal-method-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          335.3500061035156,
+          353.2007751464844,
+          345.1000061035156,
+          362.9507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "养殖"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "animal-method-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          379.04998779296875,
+          353.2007751464844,
+          388.79998779296875,
+          362.9507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "野生"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "plant-method-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          286.3999938964844,
+          384.4007568359375,
+          296.1499938964844,
+          394.1507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "栽培"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "plant-method-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          330.1000061035156,
+          384.4007568359375,
+          339.8500061035156,
+          394.1507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "野生"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "enzyme-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          431.7007751464844,
+          86.3499984741211,
+          441.4507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "carbon-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          447.30078125,
+          86.3499984741211,
+          457.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "solvent-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          462.9007568359375,
+          86.3499984741211,
+          472.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "toxic-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          478.5007629394531,
+          86.3499984741211,
+          488.2507629394531
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "glass-reactor-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          494.10076904296875,
+          86.3499984741211,
+          503.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "crusher-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          509.7007751464844,
+          86.3499984741211,
+          519.4508056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sieving-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          525.30078125,
+          86.3499984741211,
+          535.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sterilization-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          540.9007568359375,
+          86.3499984741211,
+          550.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "enzyme-origin-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          209.39999389648438,
+          431.7007751464844,
+          219.14999389648438,
+          441.4507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "动物"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "enzyme-origin-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          249.6999969482422,
+          431.7007751464844,
+          259.45001220703125,
+          441.4507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "植物"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "enzyme-origin-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          290.0,
+          431.7007751464844,
+          299.75,
+          441.4507751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "微生物"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sieve-material-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          193.75,
+          525.30078125,
+          203.5,
+          535.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "金属"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sieve-material-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          238.75,
+          525.30078125,
+          248.5,
+          535.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "尼龙"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sieve-material-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          290.79998779296875,
+          525.30078125,
+          300.54998779296875,
+          535.05078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "其它"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sterilization-mode-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          141.3000030517578,
+          540.9007568359375,
+          151.0500030517578,
+          550.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "加热"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sterilization-mode-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          183.9499969482422,
+          540.9007568359375,
+          193.6999969482422,
+          550.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "辐照"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sterilization-mode-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          228.9499969482422,
+          540.9007568359375,
+          238.6999969482422,
+          550.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "环氧乙烷"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "sterilization-mode-3",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          292.6000061035156,
+          540.9007568359375,
+          302.3500061035156,
+          550.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "其它"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          572.6007690429688,
+          86.3499984741211,
+          582.3507690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "金属"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          194.75,
+          572.6007690429688,
+          204.5,
+          582.3507690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "塑料"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          312.8999938964844,
+          572.6007690429688,
+          322.6499938964844,
+          582.3507690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "橡胶"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-3",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          588.2008056640625,
+          86.3499984741211,
+          597.9508056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "玻璃"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-4",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          123.94999694824219,
+          588.2008056640625,
+          133.6999969482422,
+          597.9508056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "陶瓷"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-5",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          171.3000030517578,
+          588.2008056640625,
+          181.0500030517578,
+          597.9508056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "木质"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "contact-materials-6",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          218.64999389648438,
+          588.2008056640625,
+          228.39999389648438,
+          597.9508056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "其它"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "patent-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          619.9007568359375,
+          86.3499984741211,
+          629.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "patent-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          193.25,
+          619.9007568359375,
+          203.0,
+          629.6507568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "legal-restriction-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          654.500732421875,
+          86.3499984741211,
+          664.250732421875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "legal-restriction-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          193.25,
+          654.500732421875,
+          203.0,
+          664.250732421875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "outsourcing-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          692.05078125,
+          86.3499984741211,
+          701.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "outsourcing-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          348.75,
+          692.05078125,
+          358.5,
+          701.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox",
+        "initial_checked": true
+      }
+    },
+    {
+      "id": "dedicated-line-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          76.5999984741211,
+          729.6007690429688,
+          86.3499984741211,
+          739.3507690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "dedicated-line-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          111.0999984741211,
+          729.6007690429688,
+          120.8499984741211,
+          739.3507690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "metal-detector-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          246.9499969482422,
+          753.7007446289062,
+          256.70001220703125,
+          763.4507446289062
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "metal-detector-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 0,
+        "rect": [
+          396.95001220703125,
+          753.7007446289062,
+          406.70001220703125,
+          763.4507446289062
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "magnet-strength",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          192.6999969482422,
+          87.75679016113281,
+          218.9499969482422,
+          99.96829223632812
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "magnet-location",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.95001220703125,
+          87.75679016113281,
+          329.20001220703125,
+          99.96829223632812
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "detector-fe",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          182.1999969482422,
+          103.35676574707031,
+          208.4499969482422,
+          115.56826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "detector-ss",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          270.8500061035156,
+          103.35676574707031,
+          297.1000061035156,
+          115.56826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "detector-nonfe",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          103.35676574707031,
+          396.25,
+          115.56826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "detector-location",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          479.70001220703125,
+          103.35676574707031,
+          505.95001220703125,
+          115.56826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "batch-size",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          85.9000015258789,
+          121.55677795410156,
+          112.1500015258789,
+          133.76828002929688
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "capacity",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          166.75,
+          121.55677795410156,
+          541,
+          133.76828002929688
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "batch-format",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          106.9000015258789,
+          155.90675354003906,
+          133.14999389648438,
+          168.11825561523438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "batch-rule",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          196.0500030517578,
+          155.90675354003906,
+          541,
+          168.11825561523438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "outer-pack",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          85.9000015258789,
+          187.6067657470703,
+          112.1500015258789,
+          199.81826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "inner-pack",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          154.14999389648438,
+          187.6067657470703,
+          541,
+          199.81826782226562
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "tie-color",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          264.45001220703125,
+          203.2067413330078,
+          290.70001220703125,
+          215.41824340820312
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "seal-other",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          351.8999938964844,
+          203.2067413330078,
+          541,
+          215.41824340820312
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "desiccant-material",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          236.89999389648438,
+          218.80677795410156,
+          263.1499938964844,
+          231.01828002929688
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "desiccant-weight",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          305.1499938964844,
+          218.80677795410156,
+          331.3999938964844,
+          231.01828002929688
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "desiccant-count",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          346.8500061035156,
+          218.80677795410156,
+          373.1000061035156,
+          231.01828002929688
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "desiccant-position",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          446.6000061035156,
+          218.80677795410156,
+          472.8500061035156,
+          231.01828002929688
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "label-warning-text",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          237.0,
+          234.40675354003906,
+          263.25,
+          246.61825561523438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "precautions-text",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          150.6999969482422,
+          266.1067810058594,
+          176.9499969482422,
+          278.3182678222656
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "detector-type-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          76.5999984741211,
+          89.00079345703125,
+          86.3499984741211,
+          98.75079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "强磁铁型"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "detector-type-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          76.5999984741211,
+          104.60076904296875,
+          86.3499984741211,
+          114.35076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "电磁型"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "seal-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          129.0500030517578,
+          204.45074462890625,
+          138.8000030517578,
+          214.20074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "热塑"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "seal-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          169.35000610351562,
+          204.45074462890625,
+          179.10000610351562,
+          214.20074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "尼龙扎带"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "seal-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          309.3500061035156,
+          204.45074462890625,
+          319.1000061035156,
+          214.20074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "其它"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "desiccant-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          173.39999389648438,
+          220.05078125,
+          183.14999389648438,
+          229.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "desiccant-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          486.79998779296875,
+          220.05078125,
+          496.54998779296875,
+          229.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "label-warning-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          173.39999389648438,
+          235.6507568359375,
+          183.14999389648438,
+          245.4007568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "label-warning-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          274.3999938964844,
+          235.6507568359375,
+          284.1499938964844,
+          245.4007568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "precautions-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          76.5999984741211,
+          267.35076904296875,
+          86.3499984741211,
+          277.10076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "precautions-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          188.10000610351562,
+          267.35076904296875,
+          197.85000610351562,
+          277.10076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-gluten-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          341.35076904296875,
+          312.45001220703125,
+          351.10076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-gluten-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          341.35076904296875,
+          337.54998779296875,
+          351.10076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-gluten-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          341.35076904296875,
+          379.75,
+          351.10076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-gluten-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          341.35076904296875,
+          404.8500061035156,
+          351.10076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-gluten-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          339.1067810058594,
+          541,
+          351.3182678222656
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-crustaceans-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          377.1507568359375,
+          312.45001220703125,
+          386.9007568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-crustaceans-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          377.1507568359375,
+          337.54998779296875,
+          386.9007568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-crustaceans-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          377.1507568359375,
+          379.75,
+          386.9007568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-crustaceans-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          377.1507568359375,
+          404.8500061035156,
+          386.9007568359375
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-crustaceans-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          374.9067687988281,
+          541,
+          387.1182556152344
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-egg-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          395.05078125,
+          312.45001220703125,
+          404.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-egg-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          395.05078125,
+          337.54998779296875,
+          404.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-egg-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          395.05078125,
+          379.75,
+          404.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-egg-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          395.05078125,
+          404.8500061035156,
+          404.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-egg-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          392.8067932128906,
+          541,
+          405.0182800292969
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-fish-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          412.9507751464844,
+          312.45001220703125,
+          422.7007751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-fish-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          412.9507751464844,
+          337.54998779296875,
+          422.7007751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-fish-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          412.9507751464844,
+          379.75,
+          422.7007751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-fish-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          412.9507751464844,
+          404.8500061035156,
+          422.7007751464844
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-fish-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          410.706787109375,
+          541,
+          422.91827392578125
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-peanuts-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          430.85076904296875,
+          312.45001220703125,
+          440.60076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-peanuts-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          430.85076904296875,
+          337.54998779296875,
+          440.60076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-peanuts-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          430.85076904296875,
+          379.75,
+          440.60076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-peanuts-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          430.85076904296875,
+          404.8500061035156,
+          440.60076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-peanuts-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          428.6067810058594,
+          541,
+          440.8182678222656
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-soy-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          448.7507629394531,
+          312.45001220703125,
+          458.5007629394531
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-soy-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          448.7507629394531,
+          337.54998779296875,
+          458.5007629394531
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-soy-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          448.7507629394531,
+          379.75,
+          458.5007629394531
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-soy-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          448.7507629394531,
+          404.8500061035156,
+          458.5007629394531
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-soy-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          446.50677490234375,
+          541,
+          458.71826171875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-milk-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          475.60076904296875,
+          312.45001220703125,
+          485.35076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-milk-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          475.60076904296875,
+          337.54998779296875,
+          485.35076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-milk-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          475.60076904296875,
+          379.75,
+          485.35076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-milk-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          475.60076904296875,
+          404.8500061035156,
+          485.35076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-milk-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          473.3567810058594,
+          541,
+          485.5682678222656
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-nuts-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          574.05078125,
+          312.45001220703125,
+          583.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-nuts-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          574.05078125,
+          337.54998779296875,
+          583.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-nuts-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          574.05078125,
+          379.75,
+          583.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-nuts-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          574.05078125,
+          404.8500061035156,
+          583.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-nuts-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          571.8067626953125,
+          541,
+          584.018310546875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-celery-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          663.55078125,
+          312.45001220703125,
+          673.30078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-celery-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          663.55078125,
+          337.54998779296875,
+          673.30078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-celery-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          663.55078125,
+          379.75,
+          673.30078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-celery-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          663.55078125,
+          404.8500061035156,
+          673.30078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-celery-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          661.3067626953125,
+          541,
+          673.518310546875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-mustard-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          681.4508056640625,
+          312.45001220703125,
+          691.2008056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-mustard-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          681.4508056640625,
+          337.54998779296875,
+          691.2008056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-mustard-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          681.4508056640625,
+          379.75,
+          691.2008056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-mustard-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          681.4508056640625,
+          404.8500061035156,
+          691.2008056640625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-mustard-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          679.206787109375,
+          541,
+          691.4183349609375
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-sesame-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          699.3507690429688,
+          312.45001220703125,
+          709.1007690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sesame-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          699.3507690429688,
+          337.54998779296875,
+          709.1007690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sesame-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          699.3507690429688,
+          379.75,
+          709.1007690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sesame-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          699.3507690429688,
+          404.8500061035156,
+          709.1007690429688
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sesame-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          697.1067504882812,
+          541,
+          709.3182983398438
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-sulphites-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          726.2007446289062,
+          312.45001220703125,
+          735.9507446289062
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sulphites-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          726.2007446289062,
+          337.54998779296875,
+          735.9507446289062
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sulphites-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          726.2007446289062,
+          379.75,
+          735.9507446289062
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sulphites-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          726.2007446289062,
+          404.8500061035156,
+          735.9507446289062
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-sulphites-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          723.9567260742188,
+          541,
+          736.1682739257812
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-lupin-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          302.70001220703125,
+          753.05078125,
+          312.45001220703125,
+          762.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-lupin-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          327.79998779296875,
+          753.05078125,
+          337.54998779296875,
+          762.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-lupin-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          370.0,
+          753.05078125,
+          379.75,
+          762.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-lupin-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          395.1000061035156,
+          753.05078125,
+          404.8500061035156,
+          762.80078125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-lupin-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 1,
+        "rect": [
+          433.6000061035156,
+          750.8067626953125,
+          541,
+          763.018310546875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "allergen-molluscs-composition-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          302.70001220703125,
+          89.00079345703125,
+          312.45001220703125,
+          98.75079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-molluscs-composition-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          327.79998779296875,
+          89.00079345703125,
+          337.54998779296875,
+          98.75079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-molluscs-cross-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          370.0,
+          89.00079345703125,
+          379.75,
+          98.75079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "是"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-molluscs-cross-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          395.1000061035156,
+          89.00079345703125,
+          404.8500061035156,
+          98.75079345703125
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "否"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "allergen-molluscs-note",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          433.6000061035156,
+          86.75679016113281,
+          541,
+          98.96829223632812
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "attachments-0",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          76.5999984741211,
+          130.10076904296875,
+          86.3499984741211,
+          139.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "分析单"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-1",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          134.4499969482422,
+          130.10076904296875,
+          144.1999969482422,
+          139.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "规格单"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-2",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          189.9499969482422,
+          130.10076904296875,
+          199.6999969482422,
+          139.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "工艺流程图"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-3",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          266.45001220703125,
+          130.10076904296875,
+          276.20001220703125,
+          139.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "检测方法"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-4",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          330.1000061035156,
+          130.10076904296875,
+          339.8500061035156,
+          139.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "SDS"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-5",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          380.45001220703125,
+          130.10076904296875,
+          390.20001220703125,
+          139.85076904296875
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "成分列表"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-6",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          76.5999984741211,
+          147.95074462890625,
+          86.3499984741211,
+          157.70074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "营养信息"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-7",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          140.25,
+          147.95074462890625,
+          150.0,
+          157.70074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "外检报告"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-8",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          201.5500030517578,
+          147.95074462890625,
+          211.3000030517578,
+          157.70074462890625
+        ],
+        "coordinate_space": "unrotated_pymupdf",
+        "option_id": "其它"
+      },
+      "constraints": {
+        "content_type": "checkbox"
+      }
+    },
+    {
+      "id": "attachments-other",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          244.10000610351562,
+          146.7067413330078,
+          541,
+          158.91824340820312
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "completer-name",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          201.10000610351562,
+          187.2147674560547,
+          269,
+          201.1707763671875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "completer-position",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          308.8500061035156,
+          187.2147674560547,
+          373,
+          201.1707763671875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "completer-date",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          412.3999938964844,
+          187.2147674560547,
+          541,
+          201.1707763671875
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0
+      }
+    },
+    {
+      "id": "test-warning",
+      "locator": {
+        "type": "pdf_rect",
+        "page_index": 2,
+        "rect": [
+          54,
+          235,
+          541,
+          253
+        ],
+        "coordinate_space": "unrotated_pymupdf"
+      },
+      "constraints": {
+        "font_size": 7.5,
+        "min_font_size": 7.5,
+        "line_height": 1.0,
+        "test_label": true
+      }
+    }
+  ]
+}
