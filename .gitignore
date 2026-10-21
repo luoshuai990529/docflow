@@ -86,6 +86,8 @@
 !/docs/architecture/overview.png
 !/docs/architecture/overview.html
 !/docs/architecture/overview.archify.json
+!/docs/architecture/workflow.drawio
+!/docs/architecture/workflow.svg
 !/docs/operations/
 /docs/operations/*
 !/docs/operations/operations.md

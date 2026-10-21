@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2026-10-21T00:00:00.000Z" agent="Codex" version="29.6.6" type="device">
+  <diagram id="docflow-workflow" name="DocFlow Workflow">
+    <mxGraphModel dx="1080" dy="200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1080" pageHeight="200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edge-1-2" value="" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8CA592;endArrow=block;endSize=7;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-1" target="node-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-2-3" value="" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8CA592;endArrow=block;endSize=7;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-2" target="node-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3-4" value="" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8CA592;endArrow=block;endSize=7;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3" target="node-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-4-5" value="" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8CA592;endArrow=block;endSize=7;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-4" target="node-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-5-6" value="" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8CA592;endArrow=block;endSize=7;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-5" target="node-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-6-7" value="" style="edgeStyle=none;html=1;strokeWidth=2;strokeColor=#8CA592;endArrow=block;endSize=7;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-6" target="node-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node-1" value="01 · 预检" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="48" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="node-2" value="02 · 提取" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="192" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="node-3" value="03 · 理解" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="336" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="node-4" value="04 · 作答" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#E3C98F;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#946B27;" vertex="1" parent="1">
+          <mxGeometry x="480" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="node-5" value="05 · 校验" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="624" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="node-6" value="06 · 写入" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="768" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="node-7" value="07 · 验证" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="912" y="64" width="120" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
