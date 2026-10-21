@@ -12,7 +12,7 @@
 
 ## 工作流程
 
-![DocFlow 七节点工作流程：LLM 参与理解、作答与条件式校验，Jev 可选参与自主作答的选项决策](docs/architecture/workflow.svg)
+![DocFlow 七节点工作流程：LLM 参与理解、作答及写入时的条件式压缩，Jev 可选参与自主作答的选项决策](docs/architecture/workflow.svg)
 
 问卷与资料按顺序经过七个节点；通过验证后交付新文件，原始文件保持不变。
 
