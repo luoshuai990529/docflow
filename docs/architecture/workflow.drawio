@@ -23,25 +23,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node-1" value="01 · 预检" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
-          <mxGeometry x="48" y="64" width="120" height="72" as="geometry" />
+          <mxGeometry x="48" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="node-2" value="02 · 提取" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
-          <mxGeometry x="192" y="64" width="120" height="72" as="geometry" />
+          <mxGeometry x="192" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="node-3" value="03 · 理解" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
-          <mxGeometry x="336" y="64" width="120" height="72" as="geometry" />
+        <mxCell id="node-3" value="03 · 理解&lt;br&gt;&lt;font color=&quot;#526FC0&quot; style=&quot;font-size:11px&quot;&gt;&lt;b&gt;LLM&lt;/b&gt;&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="336" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="node-4" value="04 · 作答" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#E3C98F;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#946B27;" vertex="1" parent="1">
-          <mxGeometry x="480" y="64" width="120" height="72" as="geometry" />
+        <mxCell id="node-4" value="04 · 作答&lt;br&gt;&lt;font color=&quot;#526FC0&quot; style=&quot;font-size:11px&quot;&gt;&lt;b&gt;LLM&lt;/b&gt;&lt;/font&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#7654A4&quot; style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Jev*&lt;/b&gt;&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#E3C98F;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#946B27;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="node-5" value="05 · 校验" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
-          <mxGeometry x="624" y="64" width="120" height="72" as="geometry" />
+        <mxCell id="node-5" value="05 · 校验&lt;br&gt;&lt;font color=&quot;#526FC0&quot; style=&quot;font-size:11px&quot;&gt;&lt;b&gt;LLM*&lt;/b&gt;&lt;/font&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
+          <mxGeometry x="624" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="node-6" value="06 · 写入" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
-          <mxGeometry x="768" y="64" width="120" height="72" as="geometry" />
+          <mxGeometry x="768" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="node-7" value="07 · 验证" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F4F8F4;strokeColor=#C9D8CC;strokeWidth=1.4;shadow=0;align=center;verticalAlign=middle;spacing=8;fontFamily=PingFang SC;fontSize=16;fontStyle=1;fontColor=#345B46;" vertex="1" parent="1">
-          <mxGeometry x="912" y="64" width="120" height="72" as="geometry" />
+          <mxGeometry x="912" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="model-legend" value="LLM = DeepSeek · * 自主文字答案超出版式时压缩 · Jev* 自主选项决策（仅自主作答，可选）" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontFamily=PingFang SC;fontSize=12;fontColor=#66756B;" vertex="1" parent="1">
+          <mxGeometry x="48" y="160" width="984" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
