@@ -8,6 +8,10 @@
   本地运行的文档工作台：读取问卷和资料，生成并校验答案，再交付经过验证的新文件。
 </p>
 
+<p align="center">
+  <img src="docs/assets/readme-project-intro.png" alt="DocFlow 文档问卷自动填写进度界面" width="96%">
+</p>
+
 ---
 
 ## 工作流程
